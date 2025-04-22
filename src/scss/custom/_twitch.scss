@@ -1,0 +1,95 @@
+$twitchBackground: transparent; //#18181b;
+$twitchHighlightColour: #9147ff;
+
+$twitchDarkModeTextColour: #efeff1;
+$twitchDarkModePlaceholderTextColour: rgba(0, 0, 0, 0.5);
+$twitchLightModeTextColour: #0e0e10;
+$twitchLightModePlaceholderTextColour: rgba(255, 255, 255, 0.5);
+
+
+#panel {
+    position: relative;
+
+    &:hover .patreon-btn-hover {
+        top: 75%;
+        opacity: 1;
+    }
+
+    .patreon-btn-hover {
+        top: 100%;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition-property: top, opacity;
+        transition-duration: 500ms;
+        transition-timing-function: ease-in-out;
+    }
+}
+
+#main.twitch {
+    background: $twitchBackground;
+
+    >* {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #panel {
+        min-height: 100%;
+        max-height: 100%;
+    }
+
+    .button.primary,
+    input[type="submit"].primary {
+        outline: none;
+        background-color: $twitchHighlightColour;
+    }
+
+    a.twitch,
+    a.twitch *,
+    .icon:before {
+        color: $twitchHighlightColour;
+    }
+
+    .icon.medium.icon-browser::before {
+        font-size: 2.4rem;
+    }
+
+    &.dark {
+
+        #config,
+        #browser-source-settings {
+
+            p,
+            li,
+            input,
+            .label,
+            .MuiFormControlLabel-root,
+            .MuiIconButton-label,
+            .MuiSlider-markLabel {
+                color: $twitchDarkModeTextColour;
+
+                input {
+                    background-color: rgba(30, 30, 30, 0.25);
+                    border-color: #dddddd;
+                }
+            }
+
+        }
+    }
+
+    &.light * {
+
+        #config,
+        #browser-source-settings {
+
+            p,
+            li,
+            input,
+            .label {
+                color: $twitchLightModeTextColour;
+            }
+
+        }
+    }
+}

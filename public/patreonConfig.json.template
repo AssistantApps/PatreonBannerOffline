@@ -1,0 +1,44 @@
+{
+    "campaignUrl": "https://www.patreon.com/example",
+    "settings": {
+        "displayType": 1,
+        "foregroundColour": "#FFFFFF",
+        "backgroundColour": "#000000",
+        "backgroundOpacity": 30,
+        "marqueSpeed": 4,
+        "verticalListSpeed": 6,
+        "oneAtATimeSpeed": 2,
+        "isProfilePicRounded": false,
+        "profilePicRoundedValue": 25,
+        "panelForegroundColour": "#FFFFFF",
+        "panelBackgroundColour": "#000000",
+        "panelBackgroundOpacity": 30,
+        "panelVerticalListSpeed": 6,
+        "panelUseDefaultBackground": true,
+        "panelCustomBackgroundImageUrl": "",
+        "panelIsProfilePicRounded": false,
+        "panelProfilePicRoundedValue": 25,
+        "lastModifiedDate": "0001-01-01T00:00:00Z"
+    },
+    "patrons": [
+        {
+            "name": "test1",
+            "imageUrl": "https://url-to-image.mock",
+            "thumbnailUrl": "https://url-to-image.mock",
+            "url": "https://www.patreon.com/user-profile",
+            "joinedDate": "2019-09-14T15:18:47.312Z"
+        },
+        {
+            "name": "test2",
+            "imageUrl": "https://url-to-image.mock",
+            "url": "https://www.patreon.com/user-profile",
+            "joinedDate": "2019-09-14T15:18:47.312Z"
+        },
+        {
+            "name": "test3",
+            "url": "https://www.patreon.com/user-profile",
+            "joinedDate": "2019-09-14T15:18:47.312Z"
+        }
+    ],
+    "saveDate": "2025-04-22T11:31:06.1534589Z"
+}

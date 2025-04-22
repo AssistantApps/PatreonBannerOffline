@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="apple-touch-icon" href="./assets/favicon/android-icon-192x192.png" />
+  <link rel="manifest" href="./manifest.json" />
+  <title>Patreon Banner - AssistantApps</title>
+
+  <link rel="stylesheet" href="./assets/font/style.css">
+
+  <style>
+    .full-page-loader {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1002;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      color: white
+    }
+
+    .full-page-loader img {
+      width: 200px;
+    }
+
+    .bg {
+      background-color: #935d8c;
+      background-image: linear-gradient(45deg, #0d6372 15%, #341e77 85%);
+      margin-bottom: -50rem;
+    }
+
+    .opacity80 {
+      background-color: #333333;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="patreon-banner-offline"></div>
+</body>
+
+</html>

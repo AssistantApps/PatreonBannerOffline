@@ -1,0 +1,18 @@
+$errorTextColour: #a00202;
+
+.errors-title {
+    margin-bottom: 0;
+    padding: 0;
+    color: $errorTextColour !important;
+}
+
+ul.errors,
+#main.twitch ul.errors * {
+    color: $errorTextColour;
+}
+
+
+
+input.error {
+    border-color: $errorTextColour !important;
+}

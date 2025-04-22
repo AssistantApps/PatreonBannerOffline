@@ -1,0 +1,38 @@
+#panel {
+    overflow: hidden;
+    max-height: 100vh;
+
+    #patreonVerticalList {
+        position: relative;
+        overflow: hidden;
+        top: unset;
+        right: unset;
+
+        .list {
+            max-width: 100%;
+        }
+
+        .patron-container {
+            margin-right: 0;
+        }
+    }
+
+    #ad {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        border: none;
+
+        img {
+            width: 25px;
+        }
+    }
+
+    #testData {
+        position: absolute;
+        top: 50%;
+        right: -20px;
+        transform: rotate(90deg);
+        color: white;
+    }
+}

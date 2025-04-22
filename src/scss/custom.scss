@@ -1,0 +1,249 @@
+@import 'libs/vars';
+@import 'libs/functions';
+
+:root {
+    --primary: #{_palette(bg2)};
+    --secondary: #{_palette(bg1)};
+}
+
+html {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    ::selection {
+        color: white;
+        background: #5331b9;
+    }
+
+    ::-moz-selection {
+        color: white;
+        background: #5331b9;
+    }
+
+    body .bg {
+        min-height: 100vh;
+    }
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.inline-block {
+    display: inline-block
+}
+
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.margin-center {
+    margin: 0 auto;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.mt1 {
+    margin-top: 1em;
+}
+
+.mt0 {
+    margin-top: 0em;
+}
+
+.mt2 {
+    margin-top: 2em;
+}
+
+.mt3 {
+    margin-top: 3em;
+}
+
+.mt5 {
+    margin-top: 5em;
+}
+
+.mt65 {
+    margin-top: 6.5em;
+}
+
+.ml1 {
+    margin-left: 1em;
+}
+
+.mr1 {
+    margin-right: 1em;
+}
+
+.mr2 {
+    margin-right: 2em;
+}
+
+.mr3 {
+    margin-right: 3em;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.mb1 {
+    margin-bottom: 1em;
+}
+
+.mb2 {
+    margin-bottom: 2em;
+}
+
+.m-h-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pa-1-2 {
+    padding: 0.5em;
+}
+
+.pt0 {
+    padding-top: 0 !important;
+}
+
+.pt1 {
+    padding-top: 1em !important;
+}
+
+.pt2 {
+    padding-top: 2em !important;
+}
+
+.pt3 {
+    padding-top: 3em !important;
+}
+
+.pt5 {
+    padding-top: 5em;
+}
+
+.pb5 {
+    padding-bottom: 5em;
+}
+
+.pr1 {
+    padding-right: 1em;
+}
+
+.ph2 {
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+}
+
+.ph3 {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.x2 {
+    font-size: 2em;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.no-pointer,
+.no-pointer * {
+    cursor: default !important;
+}
+
+.no-click {
+    cursor: not-allowed;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.float-left {
+    float: left;
+}
+
+.row.justify {
+    justify-content: center;
+}
+
+.features.special {
+    text-align: center;
+}
+
+.scroll-up {
+    right: 1em !important;
+    z-index: 9999;
+
+    i {
+        color: black;
+        opacity: 0.8;
+        // color: _palette(bg2);
+    }
+}
+
+.MuiTimeline-root.left {
+    align-items: flex-start;
+
+    .MuiTimelineItem-root {
+        width: 100%;
+    }
+
+    .MuiTimelineContent-root.MuiTimelineItem-content {
+        flex: 4;
+    }
+}
+
+.icon.medium.icon-browser::before {
+    font-size: 3.2rem;
+}
+
+@import "custom/_scrollbar";
+@import "custom/_colourPicker";
+@import 'custom/_twitch.scss';
+@import 'custom/_image.scss';
+@import 'custom/_accordian.scss';
+@import 'custom/_patreon.scss';
+@import 'custom/_premium.scss';
+@import 'custom/_panel.scss';
+@import 'custom/_icon.scss';
+@import 'custom/_svg.scss';
+@import 'custom/_displayType.scss';
+@import 'custom/_pages.scss';
+@import 'custom/_error.scss';
+@import 'custom/_segmentedControl.scss';

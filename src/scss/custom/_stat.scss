@@ -1,0 +1,22 @@
+.stat-card {
+    position: relative;
+    border: 3px solid _palette(accent);
+    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15);
+    padding: 1.5em 2em;
+    border-radius: 1em;
+
+    h3,
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        padding: 2em;
+        aspect-ratio: 1 / 1;
+    }
+}

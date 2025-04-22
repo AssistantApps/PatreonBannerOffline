@@ -1,0 +1,36 @@
+#setup .set-choice-container {
+
+    @media screen and (min-width: 700px) {
+        width: 50%;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        a {
+            float: right;
+            margin-top: 2em;
+            color: var(--secondary);
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+
+        a {
+            display: inline-block;
+            margin-bottom: 2em;
+            color: var(--secondary);
+        }
+    }
+}
+
+#main {
+    >.main.no-border {
+        border: unset !important;
+    }
+
+    .loader {
+        h2.largeHeading {
+            color: _palette(loading);
+        }
+    }
+}
