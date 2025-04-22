@@ -4,8 +4,9 @@
 
 ### How to use this version
 
-- Download the files from the [releases section](https://github.com/AssistantApps/PatreonBannerOffline/releases)
-- Place them in a safe location on your machine that has StreamLabs (or whatever you use to stream)
+- Download the build.zip from the latest release in the [releases section](https://github.com/AssistantApps/PatreonBannerOffline/releases)
+- Extract the files to a folder
+- Place the folder in a safe location on your machine that has StreamLabs (or whatever you use to stream)
 - Rename "patreonConfig.json.template" to "patreonConfig.json"
   - Edit the content of this file to contain your Patreon supporters and tweak the display settings in here
 - In StreamLabs create a a new "Browser Source",
